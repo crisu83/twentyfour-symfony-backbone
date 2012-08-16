@@ -32,16 +32,6 @@ return CMap::mergeArray(array(
 			'responsiveCss'=>false,
 			'enableJS'=>false,
 		),
-		// uncomment the following to use a MySQL database
-		/*
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
-			'charset' => 'utf8',
-		),
-		*/
 		'errorHandler'=>array(
 			'errorAction'=>'site/error',
 		),
@@ -82,7 +72,6 @@ return CMap::mergeArray(array(
 	),
 
 	'params'=>array(
-		'adminEmail'=>'webmaster@example.com',
 	),
 
 ), require(dirname(__FILE__).'/local.php'));
