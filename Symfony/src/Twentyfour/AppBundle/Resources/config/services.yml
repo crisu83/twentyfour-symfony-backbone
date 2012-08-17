@@ -1,0 +1,7 @@
+parameters:
+#    twentyfour_app.example.class: Twentyfour\AppBundle\Example
+
+services:
+#    twentyfour_app.example:
+#        class: %twentyfour_app.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,7 @@
+_index:
+    pattern:  /index
+    defaults: { _controller: TwentyfourAppBundle:Default:index }
+
+_secured:
+    resource: "@TwentyfourAppBundle/Controller/SecuredController.php"
+    type:     annotation

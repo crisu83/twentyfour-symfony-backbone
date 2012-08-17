@@ -1,0 +1,48 @@
+{% extends 'TwentyfourAppBundle::layout.html.twig' %}
+
+{% block content %}
+<div class="row">
+    <div class="span6 offset3">
+        <div class="login modal">
+            <div class="modal-header">
+                <h1>Login</h1>
+            </div>
+            <div class="modal-body">
+
+                <div class="content">
+
+                    <p>Choose between two default users: <em>user/userpass</em> <small>(ROLE_USER)</small> or <em>admin/adminpass</em> <small>(ROLE_ADMIN)</small></p>
+
+                    {% if error %}
+                        <div class="alert alert-error">
+                            <strong>Error</strong> {{ error.message }}
+                        </div>
+                    {% endif %}
+
+                </div>
+
+                <form class="form-horizontal" action="{{ path("_security_check") }}" method="post">
+                    <div class="control-group">
+                        <div class="control-label"><label for="username">Username</label></div>
+                        <div class="controls">
+                            <input type="text" id="username" name="_username" value="{{ last_username }}" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="control-label"><label for="password">Password</label></div>
+                        <div class="controls">
+                            <input type="password" id="password" name="_password" />
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+
+            <div>
+        </div>
+    </div>
+</div>
+{% endblock %}
