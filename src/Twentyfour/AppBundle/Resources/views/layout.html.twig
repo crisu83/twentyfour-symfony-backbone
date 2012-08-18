@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,13 @@
     {% stylesheets filter='lessphp' '@TwentyfourAppBundle/Resources/less/styles.less' %}
         <link type="text/css" rel="stylesheet" href="{{ asset_url }}" media="screen" />
     {% endstylesheets %}
-    <script type="text/javascript" data-main="{{ asset('js/main') }}" src="{{ asset('js/lib/require/require.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/lib/require/require.js') }}"></script>
+    <script type="text/javascript">
+        define('config', {
+            baseUrl: '{{ url('_welcome') }}'
+        });
+    </script>
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 </head>
 <body>
 <div class="navbar navbar-fixed-top">
@@ -21,12 +27,13 @@
                 <li><a href="#">Link 3</a></li>
             </ul>
             <ul class="nav pull-right">
-                <li><a href="{{ path('_login') }}">Login</a></li>
+                <li><a href="{{ url('_login') }}">Login</a></li>
             </ul>
         </div>
     </div>
 </div>
 <div class="container">
+
     {% for flashMessage in app.session.flashbag.get('notice') %}
         <div class="alert alert-warning">
             <a href="#" class="close" data-dismiss="alert">&times;</a>
@@ -38,11 +45,6 @@
         {% block content %}
         {% endblock %}
     </div>
-
-    {% if code is defined %}
-        <h2>Code behind this page</h2>
-        <div class="content">{{ code|raw }}</div>
-    {% endif %}
 
 </div>
 </body>
