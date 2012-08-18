@@ -2,156 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd77896-b095-4b44-8327-3c10bec85892" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Entry/entries.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Entry/entry.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/lib/twig/twig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/lib/twig/twig.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/TwigRenderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/TwigTemplateCache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/models/Entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/views/EntriesView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js" />
-      <change type="DELETED" beforePath="D:\www\GitHub\twentyfour\composer.phar" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\GitHub\twentyfour\src\Twentyfour\AppBundle\Resources\translations\messages.fr.xlf" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\GitHub\twentyfour\web\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\GitHub\twentyfour\web\js\lib\backbone\backbone.require.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\GitHub\twentyfour\web\js\lib\underscore\underscore.require.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/autoload.php" afterPath="$PROJECT_DIR$/app/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appdevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appdevUrlGenerator.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appdevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appdevUrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appdevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appdevUrlMatcher.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appdevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appdevUrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/02f50290330c0d999a89cf23578cee2f.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/02f50290330c0d999a89cf23578cee2f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/04222b6a417e0eb814a13fb50260f865.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/04222b6a417e0eb814a13fb50260f865.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/05d2e9607d7073dec41a8b3d890885fa.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/05d2e9607d7073dec41a8b3d890885fa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/0c05dd1e3461619292f366c250e6a6ba.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/0c05dd1e3461619292f366c250e6a6ba.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/0d1894798c4287272044698633eab46b.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/0/0d1894798c4287272044698633eab46b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/105ce083893e42fa59416b76fdd4d62c.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/105ce083893e42fa59416b76fdd4d62c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/12e178ba6a805d62c1777325a1a22889.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/12e178ba6a805d62c1777325a1a22889.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/1dc782bac176682783c157846b52c03d.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/1dc782bac176682783c157846b52c03d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/1efe3af4b59d3637f9d1a83e40785306.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/1/1efe3af4b59d3637f9d1a83e40785306.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/213a949e693921766ca9245f70f9728b.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/213a949e693921766ca9245f70f9728b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/29817d198dd437c9307a781ef7a271c6.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/29817d198dd437c9307a781ef7a271c6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/2acfdad664551c04a5a49c4f8f3d328b.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/2acfdad664551c04a5a49c4f8f3d328b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/2fa7551bfab221ba0e68c366310f59a5.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/2/2fa7551bfab221ba0e68c366310f59a5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/3/303352bc44f729db39951d00b533095a.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/3/303352bc44f729db39951d00b533095a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/3/30feba70240d1c52cf398bdba25c9185.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/3/30feba70240d1c52cf398bdba25c9185.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/3/3c5a83d057e90b012b092312ade2b9d4.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/3/3c5a83d057e90b012b092312ade2b9d4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/43432dbb3b30b00fcc8cba6ec5f76b2a.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/43432dbb3b30b00fcc8cba6ec5f76b2a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/44d87dd993a5302b8e85a78484809e62.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/44d87dd993a5302b8e85a78484809e62.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/455f472239bfb279d2dd192c2af4eea9.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/455f472239bfb279d2dd192c2af4eea9.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/4778aae52855701445bd4b27d0d29425.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/4778aae52855701445bd4b27d0d29425.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/4c9158cc2847181c8bbaa02504323622.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/4c9158cc2847181c8bbaa02504323622.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/4f2b5b5c94964b5655a7c9e0cf0bb0bb.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/4f2b5b5c94964b5655a7c9e0cf0bb0bb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5075d8e193dcddc1eb1086f3a215f2d7.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5075d8e193dcddc1eb1086f3a215f2d7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/534263e7465ce50c4e054fb8e59dc093.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/534263e7465ce50c4e054fb8e59dc093.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5977187aecb18ddbc9372e46d7551552.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5977187aecb18ddbc9372e46d7551552.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5a3e6ec4a3bb4beae2f2162555b60719.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5a3e6ec4a3bb4beae2f2162555b60719.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5b18be92da0361ba430fbb165073c633.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/5/5b18be92da0361ba430fbb165073c633.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/62305dbb87a350c340ba3cabd218530f.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/62305dbb87a350c340ba3cabd218530f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/64373f4aaca326b672953de02b47680e.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/64373f4aaca326b672953de02b47680e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/65dd6a2f92ed9327935674bd4c1fa09a.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/65dd6a2f92ed9327935674bd4c1fa09a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/68bf982ba8edf22773ad3aa6e6b88bf0.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/6/68bf982ba8edf22773ad3aa6e6b88bf0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/718ff53c88c49d7be0df27a95fba5320.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/718ff53c88c49d7be0df27a95fba5320.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7270ba9166fc02586957689b3b035be1.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7270ba9166fc02586957689b3b035be1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/76d68d5e8afd1360790999b1fb0dce75.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/76d68d5e8afd1360790999b1fb0dce75.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7dc2bedaecf0d9a157e92d8195aecec5.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7dc2bedaecf0d9a157e92d8195aecec5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7e45379282c1e7d2e81ad3a951ac5ba0.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7e45379282c1e7d2e81ad3a951ac5ba0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7fb808e9cd091bf9a6c3088bb6c13132.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/7/7fb808e9cd091bf9a6c3088bb6c13132.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/84b5882962e5189f93d32b99d83b7e14.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/84b5882962e5189f93d32b99d83b7e14.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/84e52b0ae50195d81347708819671c2a.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/84e52b0ae50195d81347708819671c2a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/871e405a5156202dee9ff59db4fa2054.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/871e405a5156202dee9ff59db4fa2054.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/8794b71e8efc59026f63073c989ba29d.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/8794b71e8efc59026f63073c989ba29d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/8c90f01042d5e5dad417a3b82fc60f6a.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/8c90f01042d5e5dad417a3b82fc60f6a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/8e34611dc9b92bfc524aa4659f065994.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/8/8e34611dc9b92bfc524aa4659f065994.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/9104bfdff35f03258de867ade740c864.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/9104bfdff35f03258de867ade740c864.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/91cbe467da0eb225943e05e43a7f3892.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/91cbe467da0eb225943e05e43a7f3892.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/934dac7b563a6d9c60ce3d3715ba364f.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/934dac7b563a6d9c60ce3d3715ba364f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/972936875e8692ab47b3d6d34c55527d.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/972936875e8692ab47b3d6d34c55527d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/9949a6a660a2420912d0e14a54314709.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/9949a6a660a2420912d0e14a54314709.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/99bcd3ae3a8a174fd5ae02c3e5c3d4c1.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/9/99bcd3ae3a8a174fd5ae02c3e5c3d4c1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/ab789fc609f451be934e66043d5d2283.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/ab789fc609f451be934e66043d5d2283.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/aca6b9b1029bef79a0cf43e16a01c361.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/aca6b9b1029bef79a0cf43e16a01c361.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/af65cbbbc7c3ea41b8d0def666b694be.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/af65cbbbc7c3ea41b8d0def666b694be.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/b/b28f79478ee6901946900ee8c6d6676b.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/b/b28f79478ee6901946900ee8c6d6676b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/b/b3822763dbd808444ec755afca2bb677.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/b/b3822763dbd808444ec755afca2bb677.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/b/b727bb343e1f3486d7234c1d30547a89.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/b/b727bb343e1f3486d7234c1d30547a89.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/c0edeb31de4251a9a9fe2f13a84f7b7f.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/c0edeb31de4251a9a9fe2f13a84f7b7f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/c5c4d1fed29351b8fbc94cc66868867f.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/c5c4d1fed29351b8fbc94cc66868867f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/c767bd3432c61b1eac49ed82658f8f5d.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/c767bd3432c61b1eac49ed82658f8f5d.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/cbee869fba800e9a93a5660237cea005.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/cbee869fba800e9a93a5660237cea005.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/cc72613807f8fa93720c46be059710b3.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/cc72613807f8fa93720c46be059710b3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/cebda65d2fc8e2152919b3e2666faff7.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/c/cebda65d2fc8e2152919b3e2666faff7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/d1da77e3f6f9f7133c572e713621c0ca.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/d1da77e3f6f9f7133c572e713621c0ca.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/d27eb26edc5cf9ee30545174784dc17a.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/d27eb26edc5cf9ee30545174784dc17a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/d892013687bc0160987864f7673fa292.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/d892013687bc0160987864f7673fa292.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/db34e654992e21aec72171f400880cac.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/db34e654992e21aec72171f400880cac.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/debf30ae6dc702fd39ccd0f73081d4a2.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/d/debf30ae6dc702fd39ccd0f73081d4a2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/e/e219ed11ea27e5d6348393989452a4b2.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/e/e219ed11ea27e5d6348393989452a4b2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/e/e6021f5f6beb685e4eced147dbf8d9a6.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/e/e6021f5f6beb685e4eced147dbf8d9a6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/f31e03a8eae6961cc021fa25cc3b0fae.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/f31e03a8eae6961cc021fa25cc3b0fae.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/f39efdcaff5f5203f9cf122ad906f7a6.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/f39efdcaff5f5203f9cf122ad906f7a6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/f6d63d96bbf986e5e45ccc6c9843b86b.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/f6d63d96bbf986e5e45ccc6c9843b86b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/fab8972deb61307a7cca94f0710d1368.php" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/config/f/fab8972deb61307a7cca94f0710d1368.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/routing.yml" afterPath="$PROJECT_DIR$/app/cache/dev/assetic/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/classes.map" afterPath="$PROJECT_DIR$/app/cache/dev/classes.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php" afterPath="$PROJECT_DIR$/app/cache/dev/classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerDemoController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerDemoController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerDemoController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerDemoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerSecuredController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerSecuredController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerSecuredController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerSecuredController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerWelcomeController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerWelcomeController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerWelcomeController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerWelcomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/DoctrineBundleDoctrineBundleControllerProfilerController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/DoctrineBundleDoctrineBundleControllerProfilerController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/DoctrineBundleDoctrineBundleControllerProfilerController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/DoctrineBundleDoctrineBundleControllerProfilerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SensioBundleDistributionBundleControllerConfiguratorController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SensioBundleDistributionBundleControllerConfiguratorController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SensioBundleDistributionBundleControllerConfiguratorController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SensioBundleDistributionBundleControllerConfiguratorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleAsseticBundleControllerAsseticController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleAsseticBundleControllerAsseticController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleAsseticBundleControllerAsseticController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleAsseticBundleControllerAsseticController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerInternalController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerInternalController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerInternalController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerInternalController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerRedirectController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerRedirectController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerRedirectController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerRedirectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerTemplateController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerTemplateController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerTemplateController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleFrameworkBundleControllerTemplateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleTwigBundleControllerExceptionController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleTwigBundleControllerExceptionController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleTwigBundleControllerExceptionController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleTwigBundleControllerExceptionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerExceptionController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerExceptionController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerExceptionController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerExceptionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerProfilerController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerProfilerController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerProfilerController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerProfilerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerRouterController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerRouterController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerRouterController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/SymfonyBundleWebProfilerBundleControllerRouterController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerDefaultController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerDefaultController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerDefaultController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerDefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerSecuredController.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerSecuredController.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerSecuredController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/controller_injectors/TwentyfourAppBundleControllerSecuredController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/doctrine/EntityManager.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/doctrine/EntityManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/jms_diextra/proxies/Acme-DemoBundle-Controller-SecuredController.php" afterPath="$PROJECT_DIR$/app/cache/dev/jms_diextra/proxies/Acme-DemoBundle-Controller-SecuredController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/sessions/sess_vbrpl06l40lkduj9kif0rsq273" afterPath="$PROJECT_DIR$/app/cache/dev/sessions/sess_vbrpl06l40lkduj9kif0rsq273" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/layout.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Tests/Controller/DefaultControllerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/lib/backbone/backbone.js" afterPath="$PROJECT_DIR$/web/js/lib/backbone/backbone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/lib/underscore/underscore.js" afterPath="$PROJECT_DIR$/web/js/lib/underscore/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/main.js" afterPath="$PROJECT_DIR$/web/js/main.js" />
-      <change type="MOVED" beforePath="D:\www\GitHub\twentyfour\src\Twentyfour\AppBundle\Resources\views\Secured\login.html.twig" afterPath="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Secured/login.twig" />
-      <change type="MOVED" beforePath="D:\www\GitHub\twentyfour\web\js\lib\json\json2.require.js" afterPath="$PROJECT_DIR$/web/js/lib/json/json2.module.js" />
-      <change type="MOVED" beforePath="D:\www\GitHub\twentyfour\web\js\router.js" afterPath="$PROJECT_DIR$/web/js/twentyfour/Router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
     </list>
     <ignored path="twentyfour.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -173,10 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="25" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="10" selection-start="972" selection-end="972" vertical-scroll-proportion="-14.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_dev.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="45" selection-start="902" selection-end="902" vertical-scroll-proportion="0.48284024">
               <folding />
             </state>
           </provider>
@@ -198,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/js/twentyfour/TwigTemplateCache.js" />
-        <option value="$PROJECT_DIR$/web/js/twentyfour/TwigRenderer.js" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/Router.js" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/models/Project.js" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/App.js" />
@@ -214,6 +82,8 @@
         <option value="$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js" />
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/web/app_dev.php" />
       </list>
     </option>
   </component>
@@ -674,7 +544,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -687,7 +557,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.671875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.671875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -753,20 +623,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Twentyfour/AppBundle/Controller/SecuredController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.57751477">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Twentyfour/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="69" selection-start="435" selection-end="435" vertical-scroll-proportion="0.34201184">
@@ -860,7 +716,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="25" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="972" selection-end="972" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="45" selection-start="902" selection-end="902" vertical-scroll-proportion="0.48284024">
           <folding />
         </state>
       </provider>
