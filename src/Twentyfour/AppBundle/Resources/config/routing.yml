@@ -1,5 +1,5 @@
-_index:
-    pattern:  /index
+_welcome:
+    pattern:  /
     defaults: { _controller: TwentyfourAppBundle:Default:index }
 
 _secured:

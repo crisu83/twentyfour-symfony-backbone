@@ -1,12 +1,12 @@
 define([
     'backbone',
     'views/EntryView',
-    'text!templates/angry-cats.twig'
+    'text!templates/Entry/entries.html.twig'
 ], function(Backbone, EntryView, template) {
     return Backbone.Marionette.CompositeView.extend({
         tagName: 'table',
         id: 'entries',
-        className: 'table-striped table-bordered',
+        className: 'table table-striped table-bordered',
         template: template,
         itemView: EntryView,
         appendHtml: function(collectionView, itemView, index) {
