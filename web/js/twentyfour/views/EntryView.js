@@ -1,6 +1,6 @@
 define([
     'backbone',
-    'twentyfour/app',
+    'twentyfour/App',
     'text!templates/Entry/entry.html.twig'
 ], function(Backbone, App, template) {
     return Backbone.Marionette.ItemView.extend({

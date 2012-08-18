@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd77896-b095-4b44-8327-3c10bec85892" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js" afterPath="$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js" afterPath="$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js" />
     </list>
     <ignored path="twentyfour.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +43,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_dev.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app_dev.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app_dev.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="902" selection-end="902" vertical-scroll-proportion="0.48284024">
+            <state line="24" column="45" selection-start="902" selection-end="902" vertical-scroll-proportion="-15.692307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/twentyfour/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="73" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="25" selection-start="658" selection-end="661" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entries.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="17" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entry.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/twentyfour/models/Entry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntriesView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/twentyfour/views/EntriesView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntryView.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="42" selection-end="42" vertical-scroll-proportion="0.039035592">
               <folding />
             </state>
           </provider>
@@ -71,7 +125,6 @@
         <option value="$PROJECT_DIR$/web/js/twentyfour/Router.js" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/models/Project.js" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/App.js" />
-        <option value="$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/models/Entry.js" />
         <option value="$PROJECT_DIR$/web/js/main.js" />
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Default/index.twig" />
@@ -79,11 +132,12 @@
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/web/js/twentyfour/views/EntriesView.js" />
-        <option value="$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js" />
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Twentyfour/AppBundle/Tests/Controller/DefaultControllerTest.php" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js" />
+        <option value="$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js" />
       </list>
     </option>
   </component>
@@ -623,13 +677,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Twentyfour/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="69" selection-start="435" selection-end="435" vertical-scroll-proportion="0.34201184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Twentyfour/AppBundle/Resources/doc/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -672,44 +719,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="73" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/twentyfour/TwigRenderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="0" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/views/EntriesView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="87" selection-end="87" vertical-scroll-proportion="0.058553386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="83" selection-end="83" vertical-scroll-proportion="0.058553386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="428" selection-end="433" vertical-scroll-proportion="0.31228474">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="41" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.72215843">
           <folding />
         </state>
       </provider>
@@ -730,7 +742,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="902" selection-end="902" vertical-scroll-proportion="0.48284024">
+        <state line="24" column="45" selection-start="902" selection-end="902" vertical-scroll-proportion="-15.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="73" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="658" selection-end="661" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/collections/Entries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="17" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/models/Entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/views/EntriesView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/twentyfour/views/EntryView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="42" selection-end="42" vertical-scroll-proportion="0.039035592">
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 define([
     'underscore',
     'backbone',
-    'twentyfour/app',
+    'twentyfour/App',
     'models/Entry'
 ], function(_, Backbone, App, Entry) {
     return Backbone.Collection.extend({
