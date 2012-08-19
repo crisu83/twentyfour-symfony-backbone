@@ -1,7 +1,7 @@
 define([
     'underscore',
     'backbone',
-    'twentyfour/App',
+    'app',
     'models/Activity'
 ], function(_, Backbone, App, Activity) {
     /**

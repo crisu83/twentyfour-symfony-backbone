@@ -1,6 +1,7 @@
 define([
+    'underscore',
     'backbone'
-], function(Backbone) {
+], function(_, Backbone) {
     /**
      * Activity model class.
      * @author Christoffer Niska <ChristofferNiska@gmail.com>
@@ -10,6 +11,10 @@ define([
     return Backbone.Model.extend({
         defaults: {
             rank: 0
+        },
+        initialize: function() {
+            var memento = new Backbone.Memento(this);
+            _.extend(this, memento);
         },
         rankUp: function() {
             this.set({rank: this.get('rank') - 1});

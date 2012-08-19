@@ -1,9 +1,9 @@
 define([
-	'jquery',
-	'underscore',
-	'backbone',
+    'jquery',
+    'underscore',
+    'backbone',
     'twig',
-	'twentyfour/Router',
+    'twentyfour/Router',
     'twentyfour/TwigTemplateCache',
     'twentyfour/TwigRenderer',
     'config'
@@ -14,20 +14,20 @@ define([
      * @class twentyfour.App
      * @extends Backbone.Marionette.Application
      */
-	var App = new Backbone.Marionette.Application;
+    var App = new Backbone.Marionette.Application;
 
     // Override classes.
     Backbone.Marionette.Renderer = new TwigRenderer;
     Backbone.Marionette.TemplateCache.prototype = new TwigTemplateCache;
 
     App.addRegions({
-       mainRegion: '#twig-test'
+        mainRegion: '#twig-test'
     });
 
-	App.addInitializer(function(options) {
-		new Router();
-		Backbone.history.start();
+    App.addInitializer(function(options) {
+        new Router();
+        Backbone.history.start();
     });
 
-	return App;
+    return App;
 });

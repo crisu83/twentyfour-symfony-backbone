@@ -1,6 +1,6 @@
 define([
     'backbone',
-    'twentyfour/App',
+    'app',
     'text!templates/Activity/item.html.twig'
 ], function(Backbone, App, template) {
     /**

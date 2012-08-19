@@ -5,6 +5,7 @@ require.config({
     baseUrl: 'js',
 	paths: {
         // app paths
+        app: 'twentyfour/App',
         collections: 'twentyfour/collections',
         models: 'twentyfour/models',
         views: 'twentyfour/views',
@@ -14,28 +15,31 @@ require.config({
 		underscore: 'lib/underscore/underscore',
 		backbone: 'lib/backbone/backbone',
 		marionette: 'lib/backbone/backbone.marionette',
-        twig: 'lib/twig/twig.module',
 		bootstrap: 'lib/bootstrap/bootstrap',
-		json: 'lib/json/json2.module'
+        // Non-AMD libraries
+        memento: 'lib/backbone/backbone.memento',
+        twig: 'lib/twig/twig',
+        json: 'lib/json/json2'
 	},
 	shim: {
         app: {
-            deps: ['marionette', 'bootstrap'],
-            exports: 'App'
+            deps: ['marionette', 'memento', 'bootstrap']
         },
-		underscore: {
-			exports: '_'
-		},
 		backbone: {
-			deps: ['underscore', 'jquery'],
-			exports: 'Backbone'
+			deps: ['underscore', 'jquery']
 		},
 		marionette: {
 			deps: ['backbone']
 		},
+        memento: {
+            deps: ['backbone']
+        },
 		bootstrap: {
 			deps: ['jquery']
 		},
+        twig: {
+            exports: 'Twig'
+        },
 		json: {
 			exports: 'JSON'
 		}
@@ -43,7 +47,7 @@ require.config({
 });
 
 require([
-	'twentyfour/App',
+	'app',
     'collections/ActivityCollection',
     'models/Activity',
     'views/ActivityListView',
