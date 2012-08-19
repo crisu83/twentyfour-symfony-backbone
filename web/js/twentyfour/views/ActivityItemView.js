@@ -3,6 +3,12 @@ define([
     'twentyfour/App',
     'text!templates/Entry/entry.html.twig'
 ], function(Backbone, App, template) {
+    /**
+     * Activity model class.
+     * @author Christoffer Niska <ChristofferNiska@gmail.com>
+     * @class twentyfour.models.Activity
+     * @extends Backbone.Model
+     */
     return Backbone.Marionette.ItemView.extend({
         template: template,
         tagName: 'tr',
