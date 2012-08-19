@@ -8,6 +8,12 @@ define([
     'twentyfour/TwigRenderer',
     'config'
 ], function($, _, Backbone, Twig, Router, TwigTemplateCache, TwigRenderer, config){
+    /**
+     * Application class.
+     * @author Christoffer Niska <ChristofferNiska@gmail.com>
+     * @class twentyfour.App
+     * @extends Backbone.Marionette.Application
+     */
 	var App = new Backbone.Marionette.Application;
 
     // Override classes.
@@ -15,7 +21,7 @@ define([
     Backbone.Marionette.TemplateCache.prototype = new TwigTemplateCache;
 
     App.addRegions({
-       mainRegion: '#twig-template-test'
+       mainRegion: '#twig-test'
     });
 
 	App.addInitializer(function(options) {

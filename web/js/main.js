@@ -44,22 +44,31 @@ require.config({
 
 require([
 	'twentyfour/App',
-    'collections/Entries',
-    'models/Entry',
-    'views/EntriesView'
-], function(App, Entries, Entry, EntriesView){
+    'collections/ActivityCollection',
+    'models/Activity',
+    'views/ActivityListView',
+    'config'
+], function(App, ActivityCollection, Activity, ActivityListView, config){
 
-    App.addInitializer(function(options) {
-        var entriesView = new EntriesView({
-            collection: new Entries([
-                new Entry({ title: 'Research', duration: 2 }),
-                new Entry({ title: 'Planning', duration: 4 }),
-                new Entry({ title: 'Development', duration: 8 }),
-                new Entry({ title: 'Testing', duration: 4 })
-            ])
-        });
+    $.ajax({
+        url: config.baseUrl + 'activity/ajaxFindAll',
+        dataType: 'json',
+        success: function(data, textStatus, jqXHR) {
+            var activities = [],
+                item;
 
-        App.mainRegion.show(entriesView);
+            for (item in data) {
+                if (data.hasOwnProperty(item)) {
+                    activities.push(new Activity(data[item]));
+                }
+            }
+
+            var activitiesView = new ActivityListView({
+                collection: new ActivityCollection(activities)
+            });
+
+            App.mainRegion.show(activitiesView);
+        }
     });
 
     // application options

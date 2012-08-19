@@ -1,13 +1,13 @@
 define([
     'backbone',
     'twentyfour/App',
-    'text!templates/Entry/entry.html.twig'
+    'text!templates/Activity/item.html.twig'
 ], function(Backbone, App, template) {
     /**
-     * Activity model class.
+     * Activity view class.
      * @author Christoffer Niska <ChristofferNiska@gmail.com>
-     * @class twentyfour.models.Activity
-     * @extends Backbone.Model
+     * @class twentyfour.views.ActivityView
+     * @extends Backbone.Marionette.ItemView
      */
     return Backbone.Marionette.ItemView.extend({
         template: template,

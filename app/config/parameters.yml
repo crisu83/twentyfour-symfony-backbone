@@ -2,7 +2,7 @@ parameters:
     database_driver:   pdo_mysql
     database_host:     localhost
     database_port:     ~
-    database_name:     symfony
+    database_name:     twentyfour
     database_user:     root
     database_password: ~
 
@@ -12,4 +12,4 @@ parameters:
     mailer_password:   ~
 
     locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    secret:            Cu6XC4SFR8Poj8nVPG9dJT5KvbLzeWZR

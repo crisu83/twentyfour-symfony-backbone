@@ -1,6 +1,12 @@
 define([
     'backbone'
 ], function(Backbone) {
+    /**
+     * Activity model class.
+     * @author Christoffer Niska <ChristofferNiska@gmail.com>
+     * @class twentyfour.models.Activity
+     * @extends Backbone.Model
+     */
     return Backbone.Model.extend({
         defaults: {
             rank: 0

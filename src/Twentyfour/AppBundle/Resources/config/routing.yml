@@ -2,6 +2,10 @@ _welcome:
     pattern:  /
     defaults: { _controller: TwentyfourAppBundle:Default:index }
 
+_acivity:
+    resource: "@TwentyfourAppBundle/Controller/ActivityController.php"
+    type:     annotation
+
 _secured:
     resource: "@TwentyfourAppBundle/Controller/SecuredController.php"
     type:     annotation

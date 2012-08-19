@@ -2,10 +2,19 @@ define([
     'underscore',
     'backbone',
     'twentyfour/App',
-    'models/Entry'
-], function(_, Backbone, App, Entry) {
+    'models/Activity'
+], function(_, Backbone, App, Activity) {
+    /**
+     * Activity collection class.
+     * @author Christoffer Niska <ChristofferNiska@gmail.com>
+     * @class twentyfour.collections.ActivityCollection
+     * @extends Backbone.Collection
+     */
     return Backbone.Collection.extend({
-        model: Entry,
+        model: Activity,
+        /**
+         * @inheritDoc
+         */
         initialize: function(models) {
             var rank = 1;
             _.each(models, function(model) {
@@ -30,6 +39,9 @@ define([
                 that.sort();
             });
         },
+        /**
+         * @inheritDoc
+         */
         comparator: function(model) {
             return model.get('rank');
         },

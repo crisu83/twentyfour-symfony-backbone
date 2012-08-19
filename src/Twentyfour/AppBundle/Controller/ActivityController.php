@@ -7,14 +7,30 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
-class DefaultController extends Controller
+/**
+ * @Route("/activity")
+ */
+class ActivityController extends Controller
 {
 	/**
-	 * @Route("/index")
+	 * @Route("/ajaxFindAll", name="_ajaxFindAll")
 	 * @Template()
 	 */
-    public function indexAction()
+    public function ajaxFindAllAction()
     {
-        return $this->render('TwentyfourAppBundle:Default:index.html.twig');
+        $repository = $this->getDoctrine()
+            ->getRepository('TwentyfourAppBundle:Activity');
+
+        $activities = $repository->findAll();
+
+        $data = array();
+        /** @var \Twentyfour\AppBundle\Entity\Activity $activity */
+        foreach ($activities as $activity) {
+            $data[] = $activity->toArray();
+        }
+
+        echo json_encode($data);
+
+        exit(0);
     }
 }

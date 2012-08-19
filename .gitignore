@@ -1,3 +1,6 @@
+# Idea
+.idea/*
+
 # Bootstrap
 app/bootstrap*
 
@@ -7,6 +10,7 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
+web/templates
 
 # Configuration files
 app/config/parameters.ini
