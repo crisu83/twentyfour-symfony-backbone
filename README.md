@@ -1,4 +1,4 @@
-twentyfour
+Twentyfour
 ==========
 
-Time tracking application built with Yii and Backbone.js.
+Time tracking application built with Symfony2 and Backbone.js.
