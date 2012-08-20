@@ -1,13 +1,11 @@
 define([
-    'jquery',
     'underscore',
     'backbone',
-    'twig',
-    'twentyfour/Router',
-    'twentyfour/TwigTemplateCache',
-    'twentyfour/TwigRenderer',
-    'config'
-], function($, _, Backbone, Twig, Router, TwigTemplateCache, TwigRenderer, config){
+    '../render/TwigTemplateCache',
+    '../render/TwigRenderer',
+    'config',
+    'marionette'
+], function(_, Backbone, TwigTemplateCache, TwigRenderer, config){
     /**
      * Application class.
      * @author Christoffer Niska <ChristofferNiska@gmail.com>
@@ -16,17 +14,19 @@ define([
      */
     var App = new Backbone.Marionette.Application;
 
+    // default application config
+    var defaults = {
+        baseUrl: '/'
+    };
+
+    App.config = _.extend(defaults, config);
+
     // Override classes.
     Backbone.Marionette.Renderer = new TwigRenderer;
     Backbone.Marionette.TemplateCache.prototype = new TwigTemplateCache;
 
     App.addRegions({
         mainRegion: '#twig-test'
-    });
-
-    App.addInitializer(function(options) {
-        new Router();
-        Backbone.history.start();
     });
 
     return App;

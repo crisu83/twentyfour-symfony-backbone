@@ -1,7 +1,8 @@
 define([
     'backbone',
-    'app',
-    'text!templates/Activity/item.html.twig'
+    '../core/App',
+    'text!templates/Activity/item.html.twig',
+	'marionette'
 ], function(Backbone, App, template) {
     /**
      * Activity view class.
@@ -16,6 +17,12 @@ define([
         events: {
             'click .rank-up': 'rankUp',
             'click .rank-down': 'rankDown'
+        },
+        /**
+         * @inheritDoc
+         */
+        initialize: function() {
+            this.model.on('change', this.render);
         },
         rankUp: function(event){
             App.vent.trigger("rank:up", this.model);

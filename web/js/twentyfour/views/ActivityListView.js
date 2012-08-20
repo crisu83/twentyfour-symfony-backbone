@@ -1,8 +1,10 @@
 define([
+    'underscore',
     'backbone',
-    'views/ActivityView',
-    'text!templates/Activity/list.html.twig'
-], function(Backbone, ActivityView, template) {
+    './ActivityView',
+    'text!templates/Activity/list.html.twig',
+	'marionette'
+], function(_, Backbone, ActivityView, template) {
     /**
      * Activity list view class.
      * @author Christoffer Niska <ChristofferNiska@gmail.com>
@@ -15,6 +17,9 @@ define([
         className: 'table table-striped table-bordered',
         template: template,
         itemView: ActivityView,
+        /**
+         * @inheritDoc
+         */
         appendHtml: function(collectionView, itemView, index) {
             collectionView.$('tbody').append(itemView.el);
         }

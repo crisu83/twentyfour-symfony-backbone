@@ -1,7 +1,8 @@
 define([
     'underscore',
     'backbone',
-    'twig'
+    'twig',
+    'marionette'
 ], function(_, Backbone, Twig) {
     return function() {
         /**

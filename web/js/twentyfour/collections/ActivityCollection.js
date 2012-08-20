@@ -1,8 +1,8 @@
 define([
     'underscore',
     'backbone',
-    'app',
-    'models/Activity'
+    '../core/App',
+    '../models/Activity'
 ], function(_, Backbone, App, Activity) {
     /**
      * Activity collection class.
@@ -11,7 +11,14 @@ define([
      * @extends Backbone.Collection
      */
     return Backbone.Collection.extend({
+        /**
+         * @type {function}
+         */
         model: Activity,
+        /**
+         * @type {string}
+         */
+        url: App.config.baseUrl + 'activity/ajaxFindAll',
         /**
          * @inheritDoc
          */
